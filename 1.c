@@ -125,7 +125,7 @@ void print_stats(int duration) {
 
 int main(int argc, char *argv[]) {
     if (argc != 5) {
-        printf("Usage: ./depstx ip port durations thread\nDO WITH YOUR OWN RISK");
+        printf("Usage: ./stx IP PORT DURATIONS THREADS\n\nDO WITH YOUR OWN RISK");
         return EXIT_FAILURE;
     }
 
