@@ -167,7 +167,7 @@ int main(int argc, char *argv[]) {
             return EXIT_FAILURE;
         }
     }
-    printf("\n\nDEPSTX SEND FLOOD\n");
+    printf("\n\nSTX SEND FLOOD\n");
     printf("Starting UDP flood to %s:%d for %d seconds using %d threads\n",
            target_ip, target_port, duration, thread_count);
 
@@ -180,7 +180,7 @@ int main(int argc, char *argv[]) {
     printf("\n\nFinal results:\n");
     printf("Total packets sent: %ld\n", atomic_load(&total_sent));
     printf("Total errors: %ld\n", atomic_load(&total_errors));
-    printf("\n\nANY INFORMATION CONTACT @KECEE_PYRITE & @DEPOZITO1907\n");
+    printf("\n\nANY INFORMATION CONTACT @KECEE_PYRITE\n");
 
     free(threads);
     free(args);
